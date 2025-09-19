@@ -1,10 +1,7 @@
-// Time And Date Cinnamon Desklet v0.3 - Added timezone name display
+// Time And Date Cinnamon Desklet v0.1 - Added timezone name display
 //
 // This is a simple desklet to display the time and date. The size, format, and timezone are configurable.
 // This can be launched from the Desklet itself by selecting Config from the menu.
-//
-// -Steve
-// desklets [at] stargw [dot] eu
 
 const Gio = imports.gi.Gio;
 const St = imports.gi.St;
