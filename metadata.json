@@ -3,7 +3,7 @@
     "prevent-decorations": false,
     "uuid": "TimeAndDate@desklet.user",
     "name": "Time Los Angeles",
-    "timeFormat": "%H:%M",
+    "timeFormat": "%H:%M:%S",
     "timeSize": "40pt",
     "dateFormat": "%A,%e %B",
     "dateSize": "15pt",
