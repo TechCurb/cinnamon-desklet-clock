@@ -1,9 +1,9 @@
 {
     "description": "A fork desklet that displays the time, date, and timezone",
     "prevent-decorations": false,
-    "uuid": "TimeAndDate@desklet.user",
+    "uuid": "TimeAndDate@curb.software",
     "name": "Time Los Angeles",
-    "timeFormat": "%H:%M:%S",
+    "timeFormat": "%H:%M",
     "timeSize": "40pt",
     "dateFormat": "%A,%e %B",
     "dateSize": "15pt",

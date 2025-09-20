@@ -15,7 +15,7 @@ const PopupMenu = imports.ui.popupMenu;
 const Util = imports.misc.util;
 
 const Gettext = imports.gettext;
-const UUID = "TimeAndDate@desklet.user";
+const UUID = "TimeAndDate@curb.software";
 
 // l10n/translation support
 
@@ -72,8 +72,8 @@ MyDesklet.prototype = {
         this._time.style="font-size: " + this.timeSize;
         this._timezoneLabel.style="font-size: " + this.timezoneSize;
         
-        this.configFile = GLib.get_home_dir() + "/.local/share/cinnamon/desklets/TimeAndDate@desklet.user/metadata.json";
-        this.helpFile = GLib.get_home_dir() + "/.local/share/cinnamon/desklets/TimeAndDate@desklet.user/README";
+        this.configFile = GLib.get_home_dir() + "/.local/share/cinnamon/desklets/TimeAndDate@curb.software/metadata.json";
+        this.helpFile = GLib.get_home_dir() + "/.local/share/cinnamon/desklets/TimeAndDate@curb.software/README";
         
         global.log("Config file " + this.configFile);
         

@@ -25,7 +25,7 @@ This makes it useful for monitoring multiple locations, setting up world clocks,
    ```
 2. Copy the folder into your local Cinnamon desklets directory:
    ```bash
-   cp -r cinnamon-desklet-clock/ ~/.local/share/cinnamon/desklets/TimeAndDate@desklet.user
+   cp -r cinnamon-desklet-clock/ ~/.local/share/cinnamon/desklets/TimeAndDate@curb.software
    ```
 3. Right-click your desktop → **Add Desklets** → Find **TimeAndDate (User)** and add it.  
 
@@ -34,7 +34,7 @@ This makes it useful for monitoring multiple locations, setting up world clocks,
 ## ⚙️ Simpler Installation (load without modifications)
 Clone the repo into your local Cinnamon desklets directory:
    ```bash
-   git clone https://github.com/TechCurb/cinnamon-desklet-clock.git ~/.local/share/cinnamon/desklets/TimeAndDate@desklet.user
+   git clone https://github.com/TechCurb/cinnamon-desklet-clock.git ~/.local/share/cinnamon/desklets/TimeAndDate@curb.software
    ```
 
 ---
@@ -59,7 +59,7 @@ Below are some example `metadata.json` snippets showing different desklet setups
 {
     "description": "A fork desklet that displays the time, date, and timezone",
     "prevent-decorations": false,
-    "uuid": "TimeAndDate@desklet.user",
+    "uuid": "TimeAndDate@curb.software",
     "name": "New York Time",
     "timeFormat": "%H:%M",
     "timeSize": "40pt",
@@ -78,7 +78,7 @@ Below are some example `metadata.json` snippets showing different desklet setups
 {
     "description": "A fork desklet that displays the time, date, and timezone",
     "prevent-decorations": false,
-    "uuid": "TimeAndDate@desklet.user",
+    "uuid": "TimeAndDate@curb.software",
     "name": "Tokyo Office",
     "timeFormat": "%H:%M",
     "timeSize": "34pt",
@@ -120,7 +120,7 @@ git clone https://github.com/TechCurb/cinnamon-desklet-clock.git  ~/.local/share
 Then open the cloned directory and **find/replace** all instances of:
 
 ```
-TimeAndDate@desklet.user → TimeAndDate@desklet.zimbabwe
+TimeAndDate@curb.software → TimeAndDate@desklet.zimbabwe
 ```
 
 Restart Cinnamon, and now both desklets can run side by side (e.g., one showing New York, another showing Zimbabwe).
